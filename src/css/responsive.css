@@ -13,6 +13,10 @@
 }
 
 @media (max-width: 800px) {
+    .main {
+        grid-template-rows: auto;
+    }
+
     .main .container-text {
         margin: auto;
         margin-left: 1.5em;
