@@ -15,6 +15,7 @@
 @media (max-width: 800px) {
     .main {
         grid-template-rows: auto;
+        padding: 3em 1em;
     }
 
     .main .container-text {
@@ -36,11 +37,6 @@
 }
 
 @media (max-width: 700px) {
-    .main {
-        grid-template-rows: auto;
-        padding: 3em 1em;
-    }
-    
     .main .container-text {
         margin: 3em auto;
     }
